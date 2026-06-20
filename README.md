@@ -305,10 +305,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## 👤 Author
 
-**Your Name**
+#Oywon Islam
 CSE Student, Jahangirnagar University
 GitHub: [@your-username](https://github.com/oywon)
 
----
 
-> Built with ❤️ to make Jahangirnagar University more accessible for everyone — no barriers, no login, just navigate.
