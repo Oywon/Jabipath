@@ -2,8 +2,6 @@
 
 > A public, no-login accessible navigation system for Jahangirnagar University (JU) students and visitors — featuring wheelchair-friendly routes, real-time elevator/ramp detection, voice-guided navigation, and fare information between campus locations.
 
-![AccessJU Logo](./public/logo.png)
-
 ---
 
 ## 📌 Table of Contents
@@ -306,7 +304,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## 👤 Author
 
 #Oywon Islam
+---
 CSE Student, Jahangirnagar University
-GitHub: [@your-username](https://github.com/oywon)
+GitHub: [OYWON](https://github.com/oywon)
 
 
