@@ -2,6 +2,8 @@
 
 > A public, no-login accessible navigation system for Jahangirnagar University (JU) students and visitors — featuring wheelchair-friendly routes, real-time elevator/ramp detection, voice-guided navigation, and fare information between campus locations.
 
+🌐 **Live App:** [https://jabipath.vercel.app](https://jabipath.vercel.app)
+
 ---
 
 ## 📌 Table of Contents
@@ -67,7 +69,7 @@ Students with disabilities at Jahangirnagar University face significant challeng
 - Select origin → destination to instantly view the fare
 - Fare card displayed alongside route directions
 - Powered by Supabase `fares` table
-- Supports multiple currency formats
+- Currency in BDT
 
 ### 🔊 Voice-Guided Navigation
 - Turn-by-turn voice instructions via Web Speech API
@@ -96,8 +98,9 @@ Students with disabilities at Jahangirnagar University face significant challeng
 | Voice Navigation | Web Speech API |
 | Analytics | PostHog |
 | UI Prototyping | Bolt.new |
+| Deployment | Vercel |
 
-> 🔐 Authentication has been removed. The app is fully public.
+> 🔓 No authentication — the app is fully public and open to everyone.
 
 ---
 
@@ -124,6 +127,12 @@ Students with disabilities at Jahangirnagar University face significant challeng
                                    ┌─────────────┐
                                    │   PostHog   │
                                    │ (Analytics) │
+                                   └─────────────┘
+                                          │
+                                          ▼
+                                   ┌─────────────┐
+                                   │   Vercel    │
+                                   │ (Deployment)│
                                    └─────────────┘
 ```
 
@@ -187,7 +196,7 @@ Students with disabilities at Jahangirnagar University face significant challeng
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/accessju.git
+git clone https://github.com/oywon/accessju.git
 cd accessju
 
 # Install dependencies
@@ -202,6 +211,8 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) — the campus map loads immediately, no login needed.
+
+Or visit the live app directly: [https://jabipath.vercel.app](https://jabipath.vercel.app)
 
 ---
 
@@ -219,7 +230,6 @@ VITE_POSTHOG_API_KEY=your_posthog_api_key
 VITE_POSTHOG_HOST=https://app.posthog.com
 ```
 
-> ⚠️ Firebase keys removed — no authentication in this version.
 > ⚠️ Never commit your `.env.local` file. It is already listed in `.gitignore`.
 
 ---
@@ -265,6 +275,7 @@ accessju/
 - [x] Updated real JU campus map integration
 - [x] JU logo added to navbar
 - [x] Fare chart (origin → destination) design
+- [x] Deployed to Vercel — live at jabipath.vercel.app
 - [ ] Supabase schema setup and JU campus data seeding
 - [ ] Interactive map with accessible node overlay
 - [ ] Dijkstra's routing algorithm integration
@@ -303,9 +314,12 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## 👤 Author
 
-#Oywon Islam
----
+**Oywon Islam**
 CSE Student, Jahangirnagar University
-GitHub: [OYWON](https://github.com/oywon)
+GitHub: [@OYWON](https://github.com/oywon)
 
+---
 
+> Built with ❤️ to make Jahangirnagar University more accessible for everyone — no barriers, no login, just navigate.
+>
+> 🌐 [jabipath.vercel.app](https://jabipath.vercel.app)
